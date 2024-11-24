@@ -4,7 +4,7 @@ import os
 BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-v_8tl5+kk4%t4+*f68s4+431qg-)!(r%5=a3b1kmjml3tt5i7y'
 DEBUG = True
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'hendra.cloud']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
